@@ -18,7 +18,7 @@ import WhatsAppFloat   from './components/WhatsAppFloat.jsx'
    WhatsApp: include country code, no + sign, no spaces
    YouTube:  your full channel URL
 ───────────────────────────────────────────────────────────── */
-const WHATSAPP_NUMBER = '+92 302 8814801'
+const WHATSAPP_NUMBER = '923028814801'
 const YOUTUBE_LINK    = 'https://www.youtube.com/@trader_tws'
 
 const WA_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
