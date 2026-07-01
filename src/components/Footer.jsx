@@ -13,7 +13,7 @@ export default function Footer({ whatsappLink, youtubeLink }) {
             <a href="#home" className="flex items-center gap-3 mb-4">
               <div className="w-9 h-9 rounded-xl overflow-hidden border border-[#d4af37]/25 flex-shrink-0">
                 <img
-                  src="/images/logo.png"
+                  src="/images/save.jpg"
                   alt="Logo"
                   className="w-full h-full object-cover"
                   onError={e => {

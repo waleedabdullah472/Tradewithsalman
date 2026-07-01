@@ -52,7 +52,7 @@ export default function YouTubeSection({ youtubeLink }) {
                 Weekly breakdowns, live trade recaps and full strategy lessons — all free.
               </p>
             </div>
-            <a href={youtubeLink} target="_blank" rel="noreferrer"
+            <a href="https://www.youtube.com/@trader_tws" target="_blank" rel="noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full flex-shrink-0
                 bg-gradient-to-r from-[#ff5050] to-[#e62e2e] text-white
                 font-display font-bold text-[14px] shadow-yt
@@ -66,7 +66,7 @@ export default function YouTubeSection({ youtubeLink }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           {VIDEOS.map((v, i) => (
             <Reveal key={v.title} delay={i * 110}>
-              <a href={youtubeLink} target="_blank" rel="noreferrer"
+              <a href="https://www.youtube.com/watch?v=eJZbc_Tu788&t=2s" target="_blank" rel="noreferrer"
                 className={`block rounded-2xl overflow-hidden border border-[#d4af37]/10
                   bg-[#131a24] transition-all duration-350 group ${v.border}
                   hover:-translate-y-2 hover:shadow-yt`}>
@@ -130,7 +130,7 @@ export default function YouTubeSection({ youtubeLink }) {
                 <p className="text-[14px] text-[#93a0b4]">New breakdown every week — gold, forex &amp; crypto.</p>
               </div>
             </div>
-            <a href={youtubeLink} target="_blank" rel="noreferrer"
+            <a href="https://www.youtube.com/@trader_tws" target="_blank" rel="noreferrer"
               className="flex items-center gap-2 px-7 py-3.5 rounded-full flex-shrink-0
                 bg-gradient-to-r from-[#ff5050] to-[#e62e2e] text-white
                 font-display font-bold text-sm shadow-yt hover:-translate-y-0.5 transition-all duration-300">

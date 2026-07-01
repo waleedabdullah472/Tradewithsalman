@@ -34,7 +34,7 @@ export default function Navbar({ whatsappLink }) {
           <div className="w-10 h-10 rounded-xl overflow-hidden border border-[#d4af37]/30 shadow-gold flex-shrink-0">
             {/* Replace /images/logo.png with your real logo file */}
             <img
-              src="/images/logo.png"
+              src="/images/save.jpg"
               alt="TradeWithSalman Logo"
               className="w-full h-full object-cover"
               onError={(e) => {

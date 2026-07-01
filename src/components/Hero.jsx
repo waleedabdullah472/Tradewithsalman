@@ -153,7 +153,7 @@ export default function Hero({ whatsappLink }) {
                 ─────────────────────────────────────────────────
               */}
               <img
-                src="/images/trader.jpg"
+                src="/images/save.jpg"
                 alt="Salman — TradeWithSalman"
                 className="w-full h-full object-cover object-top"
                 onError={e => {
