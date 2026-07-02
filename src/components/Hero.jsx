@@ -108,7 +108,7 @@ export default function Hero({ whatsappLink }) {
           <div className="flex flex-wrap gap-10 mt-12">
             {[
               { num: '8+ Yrs', label: 'Experience' },
-              { num: '12K+',   label: 'Students'   },
+              { num: '35K+',   label: 'Students'   },
               { num: '95%',    label: 'Signal Acc.' },
             ].map(s => (
               <div key={s.label}>
