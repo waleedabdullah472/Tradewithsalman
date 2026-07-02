@@ -105,9 +105,9 @@ export default function Navbar({ whatsappLink }) {
           {/* Top Panel Section */}
           <div>
             <div className="flex items-center justify-between pb-6 border-b border-white/5 mb-6">
-              <span className="font-display font-bold text-base tracking-tight text-white">
-                Navigation
-              </span>
+              <span className="font-display font-bold text-lg tracking-tight">
+            Trade<span className="gradient-text">WithSalman</span>
+          </span>
               <button 
                 onClick={() => setOpen(false)} 
                 className="text-[#93a0b4] hover:text-white p-1.5 hover:bg-white/5 rounded-lg transition-colors focus:outline-none"
