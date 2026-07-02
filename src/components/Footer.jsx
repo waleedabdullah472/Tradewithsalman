@@ -13,7 +13,7 @@ export default function Footer({ whatsappLink, youtubeLink }) {
             <a href="#home" className="flex items-center gap-3 mb-4">
               <div className="w-9 h-9 rounded-xl overflow-hidden border border-[#d4af37]/25 flex-shrink-0">
                 <img
-                  src="/images/save.jpg"
+                  src="/images/logo.jpg"
                   alt="Logo"
                   className="w-full h-full object-cover"
                   onError={e => {
@@ -89,7 +89,7 @@ export default function Footer({ whatsappLink, youtubeLink }) {
             <h5 className="text-[11.5px] uppercase tracking-widest text-[#5c6a7e] font-bold mb-4">Contact</h5>
             <ul className="space-y-3">
               {[
-                ['WhatsApp',         whatsappLink,                         true ],
+                ['WhatsApp',         923028814801,                         true ],
                 ['Email Us',         'mailto:salman@tradewithsalman.com',  false],
                 ['Islamabad, PK',    '#',                                  false],
               ].map(([label, href, external]) => (
@@ -106,16 +106,11 @@ export default function Footer({ whatsappLink, youtubeLink }) {
 
         <div className="h-px bg-gradient-to-r from-transparent via-[#d4af37]/15 to-transparent mb-7" />
 
-        <div className="flex flex-col sm:flex-row justify-between gap-3 text-[12.5px] text-[#5c6a7e]">
-          <span>© {year} TradeWithSalman. All rights reserved.</span>
-          <span>Built with React + Tailwind CSS.</span>
-        </div>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-3 text-[12.5px] text-[#5c6a7e] text-center">
+  <span>© {year} TradeWithSalman. All rights reserved.</span>
+</div>
 
-        <p className="mt-5 text-[11.5px] text-[#3e4a58] leading-relaxed border-t border-[#d4af37]/06 pt-5">
-          Risk Disclaimer: Trading forex, gold and cryptocurrency involves substantial risk and is not suitable
-          for every investor. Past performance and signal accuracy figures are illustrative and do not guarantee
-          future results. Always trade with capital you can afford to lose and conduct your own research.
-        </p>
+       
       </div>
     </footer>
   )

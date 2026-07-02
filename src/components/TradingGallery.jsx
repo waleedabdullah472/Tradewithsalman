@@ -10,12 +10,12 @@ import { TrendingUp } from 'lucide-react'
   ──────────────────────────────────────────────────────────────
 */
 const CHARTS = [
-  { src:'/images/chart1.jpg', title:'XAU/USD — Daily Structure',        tag:'Bullish',  tagColor:'text-[#1ed9a7] bg-[#1ed9a7]/10' },
-  { src:'/images/chart2.jpg', title:'EUR/USD — Liquidity Sweep Setup',  tag:'Reversal', tagColor:'text-[#f1d27a] bg-[#d4af37]/10' },
-  { src:'/images/chart3.jpg', title:'BTC/USD — Breakout Continuation',  tag:'Bullish',  tagColor:'text-[#1ed9a7] bg-[#1ed9a7]/10' },
-  { src:'/images/chart4.jpg', title:'GBP/JPY — Order Block Rejection',  tag:'Bearish',  tagColor:'text-[#ff5c6c] bg-[#ff5c6c]/10' },
-  { src:'/images/chart5.jpg', title:'NAS100 — Weekly Fair Value Gap',   tag:'Long',     tagColor:'text-[#1ed9a7] bg-[#1ed9a7]/10' },
-  { src:'/images/chart6.jpg', title:'XAG/USD — Intraday Scalp Setup',  tag:'Short',    tagColor:'text-[#ff5c6c] bg-[#ff5c6c]/10' },
+  { src:'/images/usd.jfif', title:'XAU/USD — Daily Structure',        tag:'Bullish',  tagColor:'text-[#1ed9a7] bg-[#1ed9a7]/10' },
+  { src:'/images/eur.png', title:'EUR/USD — Liquidity Sweep Setup',  tag:'Reversal', tagColor:'text-[#f1d27a] bg-[#d4af37]/10' },
+  { src:'/images/btc.png', title:'BTC/USD — Breakout Continuation',  tag:'Bullish',  tagColor:'text-[#1ed9a7] bg-[#1ed9a7]/10' },
+  { src:'/images/gbp.png', title:'GBP/JPY — Order Block Rejection',  tag:'Bearish',  tagColor:'text-[#ff5c6c] bg-[#ff5c6c]/10' },
+  { src:'/images/nas.png', title:'NAS100 — Weekly Fair Value Gap',   tag:'Long',     tagColor:'text-[#1ed9a7] bg-[#1ed9a7]/10' },
+  { src:'/images/xag.png', title:'XAG/USD — Intraday Scalp Setup',  tag:'Short',    tagColor:'text-[#ff5c6c] bg-[#ff5c6c]/10' },
 ]
 
 /* Placeholder shown when the image is missing */

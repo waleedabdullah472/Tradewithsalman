@@ -96,7 +96,7 @@ export default function Hero({ whatsappLink }) {
                 transition-all duration-300">
               <MessageCircle size={18} /> Chat on WhatsApp
             </a>
-            <a href="#youtube"
+            <a href="https://www.youtube.com/@trader_tws"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full
                 border border-white/15 text-white font-display font-bold text-[15px]
                 hover:border-[#d4af37] hover:text-[#f1d27a] transition-all duration-300">
@@ -153,7 +153,7 @@ export default function Hero({ whatsappLink }) {
                 ─────────────────────────────────────────────────
               */}
               <img
-                src="/images/save.jpg"
+                src="/images/fx.jpg"
                 alt="Salman — TradeWithSalman"
                 className="w-full h-full object-cover object-top"
                 onError={e => {

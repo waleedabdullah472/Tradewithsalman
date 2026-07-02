@@ -3,7 +3,7 @@ import Reveal from './Reveal.jsx'
 import { MessageCircle, Mail, Clock, MapPin, ArrowUpRight } from 'lucide-react'
 
 const INFO = [
-  { icon:<MessageCircle size={20}/>, label:'WhatsApp',     value:'+92 300 1234567' },
+  { icon:<MessageCircle size={20}/>, label:'WhatsApp',     value:'+92 302 8814801' },
   { icon:<Mail size={20}/>,          label:'Email',        value:'salman@tradewithsalman.com' },
   { icon:<Clock size={20}/>,         label:'Response time',value:'Usually within an hour' },
   { icon:<MapPin size={20}/>,        label:'Based in',     value:'Islamabad, Pakistan' },
@@ -43,7 +43,7 @@ export default function CTAContact({ whatsappLink }) {
                     shadow-bull hover:-translate-y-1 transition-all duration-300">
                   <MessageCircle size={18} /> Message on WhatsApp
                 </a>
-                <a href="#youtube"
+                <a href="https://www.youtube.com/@trader_tws"
                   className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full
                     border border-white/14 text-white font-display font-bold text-[15px]
                     hover:border-[#d4af37] hover:text-[#f1d27a] transition-all duration-300">

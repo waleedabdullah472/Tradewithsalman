@@ -12,23 +12,23 @@ import { Youtube, PlayCircle, Bell, Eye, Clock } from 'lucide-react'
 */
 const VIDEOS = [
   {
-    src:     '/images/yt-thumb1.jpg',
+    src:     '/images/gbp.png',
     title:   'How I Read Gold (XAU/USD) Like a Pro — Full Breakdown',
-    views:   '184K views',
-    length:  '18:24',
+    views:   '284K views',
+    length:  '01:38:10',
     border:  'hover:border-red-500/40',
   },
   {
-    src:     '/images/yt-thumb2.jpg',
+    src:     '/images/xag.png',
     title:   'My Exact Risk Management Rules — Never Blow An Account Again',
-    views:   '96K views',
+    views:   '196K views',
     length:  '12:07',
     border:  'hover:border-red-500/40',
   },
   {
-    src:     '/images/yt-thumb3.jpg',
+    src:     '/images/nas.png',
     title:   'Live Trade Recap: 3 Setups From This Week Explained',
-    views:   '61K views',
+    views:   '161K views',
     length:  '21:40',
     border:  'hover:border-red-500/40',
   },
@@ -66,7 +66,7 @@ export default function YouTubeSection({ youtubeLink }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           {VIDEOS.map((v, i) => (
             <Reveal key={v.title} delay={i * 110}>
-              <a href="https://www.youtube.com/watch?v=eJZbc_Tu788&t=2s" target="_blank" rel="noreferrer"
+              <a href="https://www.youtube.com/live/2YQw2qYRzfI?si=LMc80e7HIKqmdoJM" target="_blank" rel="noreferrer"
                 className={`block rounded-2xl overflow-hidden border border-[#d4af37]/10
                   bg-[#131a24] transition-all duration-350 group ${v.border}
                   hover:-translate-y-2 hover:shadow-yt`}>
