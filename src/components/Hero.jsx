@@ -107,9 +107,9 @@ export default function Hero({ whatsappLink }) {
           {/* stat row */}
           <div className="flex flex-wrap gap-10 mt-12">
             {[
-              { num: '6+ Yrs', label: 'Experience' },
+              { num: '8+ Yrs', label: 'Experience' },
               { num: '12K+',   label: 'Students'   },
-              { num: '87%',    label: 'Signal Acc.' },
+              { num: '95%',    label: 'Signal Acc.' },
             ].map(s => (
               <div key={s.label}>
                 <div className="font-display font-extrabold text-2xl gradient-text">{s.num}</div>

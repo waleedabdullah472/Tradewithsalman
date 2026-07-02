@@ -4,8 +4,8 @@ import Reveal from './Reveal.jsx'
 
 const STATS = [
   { val:12400, suffix:'+',    decs:0, label:'Active Followers'    },
-  { val:6,     suffix:' Yrs', decs:0, label:'Trading Experience'  },
-  { val:87,    suffix:'%',    decs:0, label:'Signal Accuracy*'    },
+  { val:8,     suffix:' Yrs', decs:0, label:'Trading Experience'  },
+  { val:95,    suffix:'%',    decs:0, label:'Signal Accuracy*'    },
   { val:4.9,   suffix:'/5',   decs:1, label:'Community Rating'    },
 ]
 

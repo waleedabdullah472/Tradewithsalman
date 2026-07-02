@@ -35,7 +35,7 @@ export default function About() {
                 className="w-full h-full object-cover object-top"
                 onError={e => {
                   e.target.onerror = null
-                  e.target.src = '/images/trader.jpg'
+                  e.target.src = '/images/salman.jpeg'
                 }}
               />
               {/* Gradient overlay */}
